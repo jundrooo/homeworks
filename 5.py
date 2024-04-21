@@ -1,3 +1,4 @@
+#1,2,3
 class User:
     def __init__(self, username, full_name, email):
         self.username = username
