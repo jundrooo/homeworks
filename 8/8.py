@@ -19,3 +19,10 @@ pi = float(pi)
 print(pi)
 fayl.close()
 
+
+#3
+text = "3.14159"
+number = float(text)
+
+with open("pi_v2", "wb") as file:
+    pickle.dump(number, file)
