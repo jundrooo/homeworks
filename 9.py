@@ -12,7 +12,7 @@ print(data_json)
 talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""
 talaba_json2 = json.loads(talaba_json)
 
-print(f"Talbning ismi {talaba_json2['ism']}, Familiyasi {talaba_json2['familiya']}")
+print(f"Talabning ismi {talaba_json2['ism']}, Familiyasi {talaba_json2['familiya']}")
 #2.2
 
 talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""
