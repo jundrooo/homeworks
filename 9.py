@@ -24,6 +24,8 @@ familiya = talaba_json2_2['familiya']
 
 print(f"Ism-> {ism}, Familiya ->{familiya}")
 
+
+#3
 with open('ism.json','w') as file1:
     json.dump(ism,file1)
 
