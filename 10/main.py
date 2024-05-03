@@ -3,7 +3,7 @@ from modul import katta_sonni_top, textCapitalize, juft_son_top, fibo #unnitest 
 
 
 
-class Check1:
+class Check1(unittest.TestCase):
     def tekshir(self):
         assert katta_sonni_top([1,23,5,6]) == 23  # assert medodi yordamida ushbu berilgan listdagi elementlarning orasidagi katta son 23 ga tengmi yo'qmi tekshiriladi
         assert katta_sonni_top([12,43,12,23]) == 43 # bu yerda ham huddi tepadakidek holat
