@@ -1,2 +1,3 @@
 aiogram
 googletrans == 3.10a0
+wikipedia
